@@ -1,8 +1,8 @@
-package paasta.delivery.pipeline.scheduler.common;
+package delivery.pipeline.scheduler.common;
 
 /**
- * paastaDeliveryPipelineApi
- * paasta.delivery.pipeline.scheduler.common
+ * apDeliveryPipelineApi
+ * delivery.pipeline.scheduler.common
  *
  * @author REX
  * @version 1.0

@@ -1,4 +1,4 @@
-package paasta.delivery.pipeline.scheduler.common;
+package delivery.pipeline.scheduler.common;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
@@ -13,8 +13,8 @@ import org.springframework.web.client.RestTemplate;
 import java.nio.charset.StandardCharsets;
 
 /**
- * paastaDeliveryPipelineApi
- * paasta.delivery.pipeline.scheduler.common
+ * apDeliveryPipelineApi
+ * delivery.pipeline.scheduler.common
  *
  * @author REX
  * @version 1.0

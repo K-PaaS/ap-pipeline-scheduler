@@ -1,4 +1,4 @@
-package paasta.delivery.pipeline.scheduler.service;
+package delivery.pipeline.scheduler.service;
 
 import org.junit.After;
 import org.junit.Before;
@@ -11,17 +11,17 @@ import org.mockito.Mock;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.http.HttpMethod;
 import org.springframework.test.context.junit4.SpringRunner;
-import paasta.delivery.pipeline.scheduler.common.Constants;
-import paasta.delivery.pipeline.scheduler.common.RestTemplateService;
-import paasta.delivery.pipeline.scheduler.model.CustomJob;
+import delivery.pipeline.scheduler.common.Constants;
+import delivery.pipeline.scheduler.common.RestTemplateService;
+import delivery.pipeline.scheduler.model.CustomJob;
 
 import java.util.*;
 
 import static org.mockito.Mockito.when;
 
 /**
- * deliveryPipelineApi
- * paasta.delivery.pipeline.scheduler.service
+ * apdeliveryPipelineApi
+ * delivery.pipeline.scheduler.service
  *
  * @author REX
  * @version 1.0

@@ -1,4 +1,4 @@
-package paasta.delivery.pipeline.scheduler.service;
+package delivery.pipeline.scheduler.service;
 
 import org.junit.After;
 import org.junit.Before;
@@ -14,8 +14,8 @@ import org.springframework.test.context.junit4.SpringRunner;
 import static org.mockito.Mockito.doNothing;
 
 /**
- * deliveryPipelineApi
- * paasta.delivery.pipeline.scheduler.service
+ * apdeliveryPipelineApi
+ * delivery.pipeline.scheduler.service
  *
  * @author REX
  * @version 1.0

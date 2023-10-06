@@ -1,4 +1,4 @@
-package paasta.delivery.pipeline.scheduler.quartz;
+package delivery.pipeline.scheduler.quartz;
 
 import org.quartz.spi.TriggerFiredBundle;
 import org.springframework.beans.factory.config.AutowireCapableBeanFactory;
@@ -7,8 +7,8 @@ import org.springframework.context.ApplicationContextAware;
 import org.springframework.scheduling.quartz.SpringBeanJobFactory;
 
 /**
- * paastaDeliveryPipelineApi
- * paasta.delivery.pipeline.scheduler.quartz
+ * apDeliveryPipelineApi
+ * delivery.pipeline.scheduler.quartz
  *
  * @author REX
  * @version 1.0

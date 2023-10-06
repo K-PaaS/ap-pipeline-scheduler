@@ -1,11 +1,11 @@
-package paasta.delivery.pipeline.scheduler.service;
+package delivery.pipeline.scheduler.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 /**
- * paastaDeliveryPipelineApi
- * paasta.delivery.pipeline.scheduler.service
+ * apDeliveryPipelineApi
+ * delivery.pipeline.scheduler.service
  *
  * @author REX
  * @version 1.0

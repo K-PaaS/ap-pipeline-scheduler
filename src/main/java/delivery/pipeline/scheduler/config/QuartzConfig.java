@@ -1,5 +1,6 @@
-package paasta.delivery.pipeline.scheduler.config;
+package delivery.pipeline.scheduler.config;
 
+import delivery.pipeline.scheduler.job.SchedulerJob;
 import org.quartz.SimpleTrigger;
 import org.quartz.spi.JobFactory;
 import org.springframework.beans.factory.annotation.Value;
@@ -9,14 +10,13 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.scheduling.quartz.JobDetailFactoryBean;
 import org.springframework.scheduling.quartz.SchedulerFactoryBean;
 import org.springframework.scheduling.quartz.SimpleTriggerFactoryBean;
-import paasta.delivery.pipeline.scheduler.job.SchedulerJob;
-import paasta.delivery.pipeline.scheduler.quartz.QuartzJobFactory;
+import delivery.pipeline.scheduler.quartz.QuartzJobFactory;
 
 import java.util.Properties;
 
 /**
- * paastaDeliveryPipelineApi
- * paasta.delivery.pipeline.scheduler.config
+ * apDeliveryPipelineApi
+ * delivery.pipeline.scheduler.config
  *
  * @author REX
  * @version 1.0

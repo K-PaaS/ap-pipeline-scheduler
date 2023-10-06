@@ -1,13 +1,13 @@
-package paasta.delivery.pipeline.scheduler.config;
+package delivery.pipeline.scheduler.config;
 
+import delivery.pipeline.scheduler.Application;
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.support.SpringBootServletInitializer;
 import org.springframework.context.annotation.Configuration;
-import paasta.delivery.pipeline.scheduler.Application;
 
 /**
- * paastaDeliveryPipelineApi
- * paasta.delivery.pipeline.scheduler.config
+ * apDeliveryPipelineApi
+ * delivery.pipeline.scheduler.config
  *
  * @author REX
  * @version 1.0
