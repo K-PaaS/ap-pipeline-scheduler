@@ -1,12 +1,12 @@
-package paasta.delivery.pipeline.scheduler.config;
+package delivery.pipeline.scheduler.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.client.RestTemplate;
 
 /**
- * paastaDeliveryPipelineApi
- * paasta.delivery.pipeline.scheduler.config
+ * apDeliveryPipelineApi
+ * delivery.pipeline.scheduler.config
  *
  * @author REX
  * @version 1.0

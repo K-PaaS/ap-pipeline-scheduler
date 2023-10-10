@@ -1,13 +1,13 @@
-package paasta.delivery.pipeline.scheduler.service;
+package delivery.pipeline.scheduler.service;
 
+import delivery.pipeline.scheduler.common.Constants;
+import delivery.pipeline.scheduler.common.RestTemplateService;
+import delivery.pipeline.scheduler.model.CustomJob;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpMethod;
 import org.springframework.stereotype.Service;
-import paasta.delivery.pipeline.scheduler.common.Constants;
-import paasta.delivery.pipeline.scheduler.common.RestTemplateService;
-import paasta.delivery.pipeline.scheduler.model.CustomJob;
 
 import java.time.LocalDate;
 import java.time.LocalTime;
@@ -15,8 +15,8 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * paastaDeliveryPipelineApi
- * paasta.delivery.pipeline.scheduler.service
+ * apDeliveryPipelineApi
+ * delivery.pipeline.scheduler.service
  *
  * @author REX
  * @version 1.0

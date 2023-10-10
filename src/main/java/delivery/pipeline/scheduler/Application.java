@@ -1,4 +1,4 @@
-package paasta.delivery.pipeline.scheduler;
+package delivery.pipeline.scheduler;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

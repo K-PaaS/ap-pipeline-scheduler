@@ -1,8 +1,8 @@
-package paasta.delivery.pipeline.scheduler.model;
+package delivery.pipeline.scheduler.model;
 
 /**
- * paastaDeliveryPipelineApi
- * paasta.delivery.pipeline.scheduler.model
+ * apDeliveryPipelineApi
+ * delivery.pipeline.scheduler.model
  *
  * @author REX
  * @version 1.0

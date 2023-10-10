@@ -26,7 +26,7 @@ ext {
 
 
 jar {
-    baseName = 'delivery-pipeline-scheduler'
+    baseName = 'ap-pipeline-scheduler'
 }
 
 sourceCompatibility = 1.8
@@ -62,5 +62,5 @@ test {
     }
 }
 springBoot {
-    mainClass = "paasta.delivery.pipeline.scheduler.Application"
+    mainClass = "delivery.pipeline.scheduler.Application"
 }

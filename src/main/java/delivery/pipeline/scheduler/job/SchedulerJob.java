@@ -1,14 +1,14 @@
-package paasta.delivery.pipeline.scheduler.job;
+package delivery.pipeline.scheduler.job;
 
 import org.quartz.Job;
 import org.quartz.JobExecutionContext;
 import org.quartz.JobExecutionException;
 import org.springframework.beans.factory.annotation.Autowired;
-import paasta.delivery.pipeline.scheduler.service.SchedulerService;
+import delivery.pipeline.scheduler.service.SchedulerService;
 
 /**
- * paastaDeliveryPipelineApi
- * paasta.delivery.pipeline.scheduler.job
+ * apDeliveryPipelineApi
+ * delivery.pipeline.scheduler.job
  *
  * @author REX
  * @version 1.0

@@ -1,11 +1,11 @@
 spring:
   application:
-    name: paasta-delivery-pipeline-scheduler
+    name: ap-pipeline-scheduler
 
 org:
   quartz:
     scheduler:
-      instanceName: paastaDeliveryPipelineScheduler
+      instanceName: apPipelineScheduler
       instanceId: AUTO
     threadPool:
       threadCount: 5
@@ -20,7 +20,7 @@ job:
 # 5 Minutes
   repeatInterval: 5000
 #  repeatInterval: 300000
-  description: PaaS-TA Delivery Pipeline Scheduler
+  description: Application Platform Delivery Pipeline Scheduler
   key: StatisticsJob
 
 ---

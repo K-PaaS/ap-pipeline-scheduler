@@ -1,4 +1,4 @@
-package paasta.delivery.pipeline.scheduler.config;
+package delivery.pipeline.scheduler.config;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.EnableWebMvc;
@@ -6,8 +6,8 @@ import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
 
 /**
- * paastaDeliveryPipelineApi
- * paasta.delivery.pipeline.scheduler.config
+ * apDeliveryPipelineApi
+ * delivery.pipeline.scheduler.config
  *
  * @author REX
  * @version 1.0
